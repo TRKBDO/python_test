@@ -1,9 +1,0 @@
-text="***********---------------------------------------------------------------------------------descriptif de l'incident :l'utilisateur veut récuperer la licence xml spy de sa collegue chonfont nohelaninom du matérie l: ma7116641l  ma9654650l(chonfont nohelani)téléphone (complet) : +33 1 57 29 65 00localisation :les dunes 5 c02flx**********************"
-names=['descriptif de l\'incident','localisation']
-data = dict(zip(*[iter(re.split(pat, text, re.MULTILINE)[1:])]*2))
-print(data)
-pat = r'({}) :'.format('|'.join(names))
-text="***********---------------------------------------------------------------------------------descriptif de l'incident :l'utilisateur veut récuperer la licence xml spy de sa collegue chonfont nohelaninom du matérie l: ma7116641l  ma9654650l(chonfont nohelani)téléphone (complet) : +33 1 57 29 65 00localisation :les dunes 5 c02flx**********************"
-names=['descriptif de l\'incident','localisation']
-data = dict(zip(*[iter(re.split(pat, text, re.MULTILINE)[1:])]*2))
-print(data)
